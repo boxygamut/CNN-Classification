@@ -4,7 +4,7 @@
 - Adam optimizer
 - Cross Entropy Loss as loss function
 
-Conv -> ReLU -> MaxPool
+Conv -> BatchNorm -> ReLU -> MaxPool
 
 Adaptive pool used to turn each feature map into a single averaged value
 
